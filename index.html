@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Aniversário 🎉</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      text-align: center;
+      color: #fff;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #00000033;
+    }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+
+    .slide {
+      display: none;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00000055;
+    }
+
+    iframe {
+      margin-top: 30px;
+      width: 90%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00000055;
+    }
+
+    .letter-btn {
+      background-color: #ffffffaa;
+      color: #8b008b;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: 30px;
+      transition: 0.3s;
+    }
+
+    .letter-btn:hover {
+      background-color: #fff;
+      transform: scale(1.05);
+    }
+
+    .letter {
+      display: none;
+      max-width: 700px;
+      background: #fff;
+      color: #444;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00000033;
+      font-family: 'Georgia', serif;
+      text-align: left;
+      line-height: 1.6;
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
+
+      .letter {
+        padding: 20px;
+        font-size: 0.95em;
+      }
+
+      .letter-btn {
+        font-size: 1em;
+        padding: 8px 16px;
+      }
+
+      iframe {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Feliz Aniversário, Amiga! 🎂💖</h1>
+  <p>Que seu dia seja tão lindo quanto seu sorriso!</p>
+  <h2 style="font-style: italic; font-weight: normal; margin-top: 40px; color: #fffdfd; text-shadow: 1px 1px 4px #00000055;">
+    “We keep this love in a photograph”
+  </h2>
+
+  <div class="slideshow-container">
+    <img class="slide" src="foto1.jpg" alt="Foto 1">
+    <img class="slide" src="foto2.jpg" alt="Foto 2">
+    <img class="slide" src="foto3.jpg" alt="Foto 3">
+    <img class="slide" src="foto4.jpg" alt="Foto 4">
+  </div>
+
+  <button class="letter-btn" onclick="mostrarCarta()">💌 Abrir cartinha</button>
+
+  <div class="letter" id="carta">
+    <p>Hoje o mundo completa 18 voltas com uma alma rara caminhando entre nós.<br><br>
+    E eu tenho a sorte imensa de poder te chamar de amiga, ou melhor, sempre disse com orgulho que te considero minha irmã mais nova, porque os laços que a vida cria com amor valem tanto quanto (ou até mais) que os de sangue.<br><br>
+    Você não chegou na minha vida por acaso. E desde que chegou, me ensinou muito.<br><br>
+    Me ensinou sobre força silenciosa, sobre a coragem de continuar mesmo quando tudo grita pra parar. Sobre recomeços, sobre sensibilidade, sobre como ser luz mesmo quando se viveu tanto tempo cercada de sombra, trouxe alegria, risos leves e inesperados e tudo o que meu coração carrega com tanto carinho.<br><br>
+    Você é um desses milagres discretos da vida. Alguém que passou por mais do que deveria, que conheceu a dor de perto, e ainda assim escolheu amar, confiar, sonhar.<br><br>
+    Isso, pra mim, é a prova mais clara do tipo de mulher que você é: grande, mesmo quando o mundo tentou te diminuir.<br><br>
+    Completar 18 anos pra muita gente é apenas um número, mas pra você é muito mais:<br>
+    É a celebração de uma sobrevivente. De uma guerreira que agora entra numa nova fase com mais consciência, mais maturidade, mais sede de viver e, principalmente, com um brilho que ninguém nunca mais vai apagar.<br><br>
+    Eu te admiro de um jeito profundo. E não por romantizar suas dores, mas por reconhecer a grandeza de quem as superou. Você é feita de cicatrizes que viraram mapas. E o que mais me emociona é saber que, mesmo com tudo, você ainda tem espaço no peito pra acolher o mundo com doçura.<br><br>
+    O seu futuro? Ele vai ser tão imenso quanto sua alma. Porque você merece. Porque você é capaz. Porque já é maior que tudo o que tentou te parar.<br><br>
+    Hoje eu celebro a sua vida, sua coragem, sua presença firme e sensível.<br>
+    E te prometo: estarei aqui, torcendo por você em cada passo, com orgulho, com amor, com a certeza de que o mundo é um lugar melhor com você nele.<br><br>
+    Feliz 18 anos. Você é uma constelação inteira. <br>
+    Nunca esqueça disso. <br>
+    Eu te amo muito, mesmo sendo ausente, mesmo não estando sempre aqui fisicamente, eu vou sempre estar quando for preciso. 🥳🤍</p>
+  </div>
+
+  <p>
+    <a href="https://www.youtube.com/watch?v=X2m9s9brCfg" target="_blank" style="background:#fff;color:#8b008b;padding:10px 20px;border-radius:20px;text-decoration:none;font-weight:bold;box-shadow:0 0 10px #00000033;display:inline-block;margin-top:20px;">
+      ▶️ Ouvir "Photograph" no YouTube
+    </a>
+  </p>
+
+  <script>
+    let slideIndex = 0;
+    const slides = document.getElementsByClassName("slide");
+
+    function showSlides() {
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000); // 3 segundos por slide
+    }
+
+    function mostrarCarta() {
+      document.getElementById("carta").style.display = "block";
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    }
+
+    showSlides();
+  </script>
+</body>
+</html>
